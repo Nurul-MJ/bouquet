@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darksalmon;
+}
+
+.menu-bar{
+    background: white;
+    text-align: center;
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+}
+
+.menu-bar ul li{
+    width: 110px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.active, .menu-bar ul li:hover{
+    background: darksalmon;
+    border-radius: 3px;
+}
+
